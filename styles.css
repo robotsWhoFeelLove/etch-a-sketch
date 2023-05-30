@@ -1,22 +1,26 @@
 .item{
     background-color: grey;
 }
-
+body{
+    background-color: #95f6f6;
+    padding: 25px;
+}
 #content{
     display: flex;
     align-items: stretch;
-    background-color: red;
+    background-color: #fe4040;
     padding: 40px;
     height: 75vh;
 }
 .header {
     font-family: cursive;
     font-size: 50px;
-    color: white;
+    color: 	#f8ff87;
     margin-bottom: -40px;
     text-align: center;
-    background-color: red;
+    background-color: #fe4040;
     border-radius: 20px;
+    font-weight: 700;
 }
 .container{
     display: flex;
@@ -30,11 +34,12 @@
     flex-basis: 100%;
     align-items: stretch;
     aspect-ratio: 1/1;
+    border: 1px solid darkgrey;
 }
 .footer{
     margin-top: -30px;
     height: 120px;
-    background-color: red;
+    background-color: #fe4040;
     display: flex;
     justify-content: space-between;
 }
@@ -48,8 +53,9 @@
 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    color: blue;
+    color:#202020;
     font-weight: 600;
+    border: 3px dotted #202020;;
 }
 .right>button,
 .left>button{
@@ -58,6 +64,13 @@ button{
 
 }
 .btn3{
-    height: 30px;
+    height: 50px;
+    border: 5px solid #042054;
+    border-radius: 5px;
+    padding: 10px;
+}
+.rainbow{
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    color: darkkhaki;
 }
 

@@ -60,6 +60,7 @@ document.querySelector(".btn2").addEventListener("click", function(){
 }
 )
 document.querySelector(".btn3").addEventListener("click", function(){
+    this.classList.toggle("rainbow");
     colorToggle = !colorToggle;
 }
 )
