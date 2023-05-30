@@ -74,6 +74,12 @@ button{
 }
 
 @media only screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative;
+      }
     #content{
         display: flex;
         align-items: stretch;
