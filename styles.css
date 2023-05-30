@@ -46,9 +46,10 @@
     display: flex;
 }
 button{
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: blue;
+    font-weight: 600;
 }
 .right>button,
 .left>button{

@@ -33,7 +33,7 @@ function grid (num){
         const columns = document.createElement("div");
         columns.classList.add("item");
         columns.setAttribute("id",itemID+"col"+x);
-        columns.style.backgroundColor= "grey";
+        columns.style.backgroundColor= "LightGrey";
         rows.appendChild(columns);
         }   
     }
