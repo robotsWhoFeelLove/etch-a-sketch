@@ -41,7 +41,9 @@ function grid (num){
     const divs = document.querySelectorAll(".item");
     divs.forEach(div => {
     div.addEventListener("mouseover", colorChange);
+    div.addEventListener("click", colorChange)
     });
+    
 }
 
 document.querySelector(".btn").addEventListener("click", function(){

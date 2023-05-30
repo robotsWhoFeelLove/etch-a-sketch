@@ -46,7 +46,6 @@ body{
 .footer>div{
     height: 100px;
     width: 100px;
-    background-color: white;
     border-radius: 50%;
     display: flex;
 }
@@ -74,3 +73,44 @@ button{
     color: darkkhaki;
 }
 
+@media only screen and (max-width: 768px) {
+    #content{
+        display: flex;
+        align-items: stretch;
+        background-color: #fe4040;
+        padding: 15px;
+        height: 75vh;
+    }
+    body{
+        padding:3px;}
+    .header{
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+.footer{
+    height: 80px;
+    padding-top: 20px;
+}
+    button{
+        font-size: 10px;
+    }
+    .right>button,
+
+.footer>div{
+    align-items: flex-end;
+    height: 50px;
+    width: 50px;
+
+}
+.left>button{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.btn3{
+    height: 30px;
+    border: 5px solid #042054;
+    border-radius: 5px;
+    padding: 5px;
+}
+}
